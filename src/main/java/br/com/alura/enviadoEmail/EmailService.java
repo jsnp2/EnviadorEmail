@@ -16,7 +16,7 @@ public class EmailService {
 			Email email = new SimpleEmail();
 			email.setHostName("smtp.sendgrid.net");
 			email.setSmtpPort(587);
-			email.setAuthenticator(new DefaultAuthenticator("jsnp22", "mudar@123"));
+			email.setAuthenticator(new DefaultAuthenticator("nome_usuario", "senha_usuario"));
 			email.setSSL(true);
 			
 			
